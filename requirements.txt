@@ -2,7 +2,7 @@
 dill==0.3.4
 matplotlib>=3.3.2
 nbsphinx
-numpy>=1.19.2
+numpy>=1.22.2
 
 opt_einsum
 pathos>=0.2.7
@@ -15,10 +15,18 @@ qiskit-aer==0.13.3
 
 scipy>=1.5.2
 setuptools>=52.0.0
-tensorflow>=2.4.1
-torch>=1.8.0
+tensorflow>=2.12.0rc1
+torch>=2.2.0
 torchdiffeq>=0.2.3
 torchpack>=0.3.0
 torchquantum>=0.1
 torchvision>=0.9.0.dev20210130
 tqdm>=4.56.0
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
