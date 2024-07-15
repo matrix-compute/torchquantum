@@ -14,7 +14,7 @@ qiskit_ibm_runtime==0.20.0
 qiskit-aer==0.13.3
 
 scipy>=1.5.2
-setuptools>=52.0.0
+setuptools>=70.0.0
 tensorflow>=2.4.1
 torch>=1.8.0
 torchdiffeq>=0.2.3
