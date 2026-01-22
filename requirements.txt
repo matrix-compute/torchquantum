@@ -16,9 +16,11 @@ qiskit-aer==0.13.3
 scipy>=1.5.2
 setuptools>=52.0.0
 tensorflow>=2.4.1
-torch>=1.8.0
+torch>=2.10.0
 torchdiffeq>=0.2.3
 torchpack>=0.3.0
 torchquantum>=0.1
 torchvision>=0.9.0.dev20210130
 tqdm>=4.56.0
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
