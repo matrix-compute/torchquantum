@@ -5,3 +5,5 @@ recommonmark
 torchquantum>=0.1
 opt_einsum
 qiskit_ibm_runtime
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
+keras>=3.13.2 # not directly required, pinned by Snyk to avoid a vulnerability
